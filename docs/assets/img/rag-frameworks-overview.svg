@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="370" viewBox="0 0 960 370">
+  <!-- Background -->
+  <rect width="960" height="370" fill="#f7fafd" rx="14"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="960" height="46" fill="#003366" rx="14"/>
+  <rect x="0" y="32" width="960" height="14" fill="#003366"/>
+  <text x="480" y="26" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle" dominant-baseline="middle">Enterprise RAG — Three Governing Frameworks</text>
+
+  <!-- Center: Enterprise RAG -->
+  <rect x="350" y="145" width="260" height="80" rx="12" fill="#003366"/>
+  <text x="480" y="180" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle">Enterprise RAG</text>
+  <text x="480" y="200" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Secure · Scalable · Governed</text>
+
+  <!-- Connector lines (from center to each framework) -->
+  <!-- Left (ZTA) -->
+  <line x1="350" y1="185" x2="268" y2="185" stroke="#7ba9d6" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <!-- Right (WAF) -->
+  <line x1="610" y1="185" x2="692" y2="185" stroke="#7ba9d6" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <!-- Bottom (CAF) -->
+  <line x1="480" y1="225" x2="480" y2="278" stroke="#7ba9d6" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+  <!-- ZTA (Left) -->
+  <rect x="24" y="90" width="244" height="190" rx="12" fill="#004a99"/>
+  <text x="146" y="122" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle">Zero Trust Architecture</text>
+  <rect x="54" y="134" width="184" height="1" fill="rgba(255,255,255,0.22)"/>
+  <text x="146" y="152" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Never trust, always verify</text>
+  <text x="146" y="170" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Protects identities, networks,</text>
+  <text x="146" y="188" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">data, apps, and infrastructure</text>
+  <text x="146" y="206" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">across every RAG component</text>
+  <rect x="44" y="228" width="204" height="36" rx="7" fill="rgba(0,0,0,0.15)"/>
+  <text x="146" y="250" font-family="Arial, sans-serif" font-size="11" fill="#c8d8ea" text-anchor="middle">Entra ID · Private Endpoints · Sentinel</text>
+
+  <!-- WAF (Right) -->
+  <rect x="692" y="90" width="244" height="190" rx="12" fill="#003878"/>
+  <text x="814" y="122" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle">Well-Architected Framework</text>
+  <rect x="722" y="134" width="184" height="1" fill="rgba(255,255,255,0.22)"/>
+  <text x="814" y="152" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Design quality at every layer</text>
+  <text x="814" y="170" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Reliability · Security · Cost</text>
+  <text x="814" y="188" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Operational Excellence</text>
+  <text x="814" y="206" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Performance Efficiency</text>
+  <rect x="712" y="228" width="204" height="36" rx="7" fill="rgba(0,0,0,0.15)"/>
+  <text x="814" y="250" font-family="Arial, sans-serif" font-size="11" fill="#c8d8ea" text-anchor="middle">5 Pillars · Review Checklists · WAF Scores</text>
+
+  <!-- CAF (Bottom) -->
+  <rect x="160" y="278" width="640" height="78" rx="12" fill="#003366"/>
+  <text x="480" y="305" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle">Cloud Adoption Framework (CAF)</text>
+  <text x="480" y="325" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Structured roadmap for adopting cloud at enterprise scale — from business strategy to governance and operations</text>
+  <text x="480" y="343" font-family="Arial, sans-serif" font-size="11" fill="#7ba9d6" text-anchor="middle">Strategy · Plan · Ready · Adopt → Govern · Secure · Manage</text>
+</svg>

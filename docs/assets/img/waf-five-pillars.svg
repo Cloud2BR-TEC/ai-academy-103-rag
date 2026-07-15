@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="310" viewBox="0 0 960 310">
+  <!-- Background -->
+  <rect width="960" height="310" fill="#f7fafd" rx="14"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="960" height="46" fill="#003366" rx="14"/>
+  <rect x="0" y="32" width="960" height="14" fill="#003366"/>
+  <text x="480" y="26" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle" dominant-baseline="middle">Azure Well-Architected Framework (WAF) — Five Pillars</text>
+
+  <!-- Pillar 1: Reliability -->
+  <rect x="20" y="58" width="178" height="230" rx="10" fill="#004a99"/>
+  <text x="109" y="88" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">Reliability</text>
+  <rect x="45" y="100" width="128" height="1" fill="rgba(255,255,255,0.22)"/>
+  <text x="109" y="119" font-family="Arial, sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Uptime &amp; recovery targets</text>
+  <text x="109" y="137" font-family="Arial, sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Redundancy at scale</text>
+  <text x="109" y="155" font-family="Arial, sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Zone redundancy</text>
+  <text x="109" y="173" font-family="Arial, sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Disaster recovery</text>
+  <rect x="35" y="214" width="148" height="52" rx="7" fill="rgba(0,0,0,0.15)"/>
+  <text x="109" y="234" font-family="Arial, sans-serif" font-size="10" fill="#c8d8ea" text-anchor="middle">For RAG:</text>
+  <text x="109" y="250" font-family="Arial, sans-serif" font-size="10" fill="#c8d8ea" text-anchor="middle">AI Search replicas</text>
+  <text x="109" y="264" font-family="Arial, sans-serif" font-size="10" fill="#c8d8ea" text-anchor="middle">Multi-region LLM failover</text>
+
+  <!-- Pillar 2: Security -->
+  <rect x="208" y="58" width="178" height="230" rx="10" fill="#003366"/>
+  <text x="297" y="88" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">Security</text>
+  <rect x="233" y="100" width="128" height="1" fill="rgba(255,255,255,0.22)"/>
+  <text x="297" y="119" font-family="Arial, sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Confidentiality &amp; integrity</text>
+  <text x="297" y="137" font-family="Arial, sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Defense in depth</text>
+  <text x="297" y="155" font-family="Arial, sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Identity &amp; access control</text>
+  <text x="297" y="173" font-family="Arial, sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Threat modeling</text>
+  <rect x="223" y="214" width="148" height="52" rx="7" fill="rgba(0,0,0,0.15)"/>
+  <text x="297" y="234" font-family="Arial, sans-serif" font-size="10" fill="#c8d8ea" text-anchor="middle">For RAG:</text>
+  <text x="297" y="250" font-family="Arial, sans-serif" font-size="10" fill="#c8d8ea" text-anchor="middle">Private Endpoints</text>
+  <text x="297" y="264" font-family="Arial, sans-serif" font-size="10" fill="#c8d8ea" text-anchor="middle">Zero Trust controls</text>
+
+  <!-- Pillar 3: Cost Optimization -->
+  <rect x="396" y="58" width="168" height="230" rx="10" fill="#004a99"/>
+  <text x="480" y="88" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">Cost Optimization</text>
+  <rect x="421" y="100" width="118" height="1" fill="rgba(255,255,255,0.22)"/>
+  <text x="480" y="119" font-family="Arial, sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Reduce waste</text>
+  <text x="480" y="137" font-family="Arial, sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Right-size resources</text>
+  <text x="480" y="155" font-family="Arial, sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Reserved capacity</text>
+  <text x="480" y="173" font-family="Arial, sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Consumption visibility</text>
+  <rect x="411" y="214" width="138" height="52" rx="7" fill="rgba(0,0,0,0.15)"/>
+  <text x="480" y="234" font-family="Arial, sans-serif" font-size="10" fill="#c8d8ea" text-anchor="middle">For RAG:</text>
+  <text x="480" y="250" font-family="Arial, sans-serif" font-size="10" fill="#c8d8ea" text-anchor="middle">Token budgets</text>
+  <text x="480" y="264" font-family="Arial, sans-serif" font-size="10" fill="#c8d8ea" text-anchor="middle">PTU vs. pay-as-you-go</text>
+
+  <!-- Pillar 4: Operational Excellence -->
+  <rect x="574" y="58" width="188" height="230" rx="10" fill="#003878"/>
+  <text x="668" y="82" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">Operational</text>
+  <text x="668" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">Excellence</text>
+  <rect x="599" y="112" width="138" height="1" fill="rgba(255,255,255,0.22)"/>
+  <text x="668" y="130" font-family="Arial, sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Observability</text>
+  <text x="668" y="148" font-family="Arial, sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Automated deployments</text>
+  <text x="668" y="166" font-family="Arial, sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Incident response</text>
+  <text x="668" y="184" font-family="Arial, sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Safe deployment practices</text>
+  <rect x="589" y="214" width="158" height="52" rx="7" fill="rgba(0,0,0,0.15)"/>
+  <text x="668" y="234" font-family="Arial, sans-serif" font-size="10" fill="#c8d8ea" text-anchor="middle">For RAG:</text>
+  <text x="668" y="250" font-family="Arial, sans-serif" font-size="10" fill="#c8d8ea" text-anchor="middle">Monitor · Sentinel · App Insights</text>
+  <text x="668" y="264" font-family="Arial, sans-serif" font-size="10" fill="#c8d8ea" text-anchor="middle">Agent versioning · IaC pipelines</text>
+
+  <!-- Pillar 5: Performance Efficiency -->
+  <rect x="772" y="58" width="168" height="230" rx="10" fill="#004a99"/>
+  <text x="856" y="82" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">Performance</text>
+  <text x="856" y="100" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">Efficiency</text>
+  <rect x="797" y="112" width="118" height="1" fill="rgba(255,255,255,0.22)"/>
+  <text x="856" y="130" font-family="Arial, sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Scale to meet demand</text>
+  <text x="856" y="148" font-family="Arial, sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Horizontal scaling</text>
+  <text x="856" y="166" font-family="Arial, sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Test before deploying</text>
+  <text x="856" y="184" font-family="Arial, sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Latency optimization</text>
+  <rect x="787" y="214" width="148" height="52" rx="7" fill="rgba(0,0,0,0.15)"/>
+  <text x="856" y="234" font-family="Arial, sans-serif" font-size="10" fill="#c8d8ea" text-anchor="middle">For RAG:</text>
+  <text x="856" y="250" font-family="Arial, sans-serif" font-size="10" fill="#c8d8ea" text-anchor="middle">Provisioned throughput</text>
+  <text x="856" y="264" font-family="Arial, sans-serif" font-size="10" fill="#c8d8ea" text-anchor="middle">AI Search replicas &amp; shards</text>
+</svg>
