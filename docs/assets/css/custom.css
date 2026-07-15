@@ -82,8 +82,8 @@ a.home-card:hover {
 .cat-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.9rem;
-  margin-top: 1rem;
+  gap: 0.6rem;
+  margin-top: 0.9rem;
 }
 
 @media (max-width: 60rem) {
@@ -96,21 +96,21 @@ a.home-card:hover {
 
 .cat-card {
   border: 1px solid #dde3ed;
-  border-radius: 8px;
-  padding: 0.9rem 1rem;
+  border-radius: 6px;
+  padding: 0.55rem 0.65rem;
   background: #ffffff;
-  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.07);
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
 }
 
 .cat-card h3 {
-  margin: 0 0 0.5rem;
-  font-size: 0.8rem;
+  margin: 0 0 0.35rem;
+  font-size: 0.68rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
 
-.cat-card ul { margin: 0; padding-left: 1rem; }
-.cat-card li { margin: 0.15rem 0; color: #33445a; }
+.cat-card ul { margin: 0; padding-left: 0.85rem; }
+.cat-card li { margin: 0.12rem 0; color: #33445a; font-size: 0.68rem; line-height: 1.35; }
 
 .cat-card a,
 .cat-card a:visited { color: inherit; text-decoration: none; }
