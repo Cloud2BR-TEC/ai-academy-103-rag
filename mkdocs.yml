@@ -1,4 +1,4 @@
-site_name: "RAG Enterprise Scale"
+﻿site_name: "RAG Enterprise Scale"
 site_description: "Architecture and implementation patterns for enterprise-scale RAG solutions."
 site_url: https://cloud2br-tec.github.io/ai-academy-103-rag/
 docs_dir: docs
@@ -51,24 +51,24 @@ extra:
 nav:
   - Home: index.md
   - 01. Fundamentals:
-    - 01.1 Enterprise RAG Overview: 0_Enterprise_RAG_Overview.md
-    - 01.2 Implementation Approaches: 3_Implementation_Approaches.md
-    - 01.3 Implementation Catalog:
-      - Azure GPT-RAG: gpt-rag.md
-      - Customer Chatbot Accelerator: customer-chatbot-solution-accelerator.md
-      - Multi-Agent Automation Engine: multi-agent-custom-automation-engine.md
-      - Microsoft AI Solution Accelerators: microsoft-ai-solution-accelerators.md
-      - Microsoft IQ Accelerator: microsoft-iq-solution-accelerator.md
-      - Content Generation Accelerator: content-generation-solution-accelerator.md
-      - Container Migration Accelerator: container-migration-solution-accelerator.md
-      - Content Processing Accelerator: content-processing-solution-accelerator.md
-      - Modernize Your Code Accelerator: modernize-your-code-solution-accelerator.md
-      - Document Knowledge Mining Accelerator: document-knowledge-mining-solution-accelerator.md
-      - Conversation Knowledge Mining Accelerator: conversation-knowledge-mining-solution-accelerator.md
-      - Deploy AI Application in Production: deploy-ai-application-in-production.md
-      - Chat with Your Data Accelerator: chat-with-your-data-solution-accelerator.md
-  - 02. Enterprise Design:
-    - 02.1 Architecture Patterns: 1_Architecture_Patterns.md
-    - 02.2 Governance and Security: 2_Governance_and_Security.md
-  - 03. Security:
-    - 03.1 Zero Trust Architecture: 4_Zero_Trust_Architecture.md
+    - Enterprise RAG Overview: 01-fundamentals/index.md
+  - 02. Implementation Catalog:
+    - Overview: 02-catalog/index.md
+    - Azure GPT-RAG: 02-catalog/gpt-rag.md
+    - Customer Chatbot Accelerator: 02-catalog/customer-chatbot.md
+    - Multi-Agent Automation Engine: 02-catalog/multi-agent-automation.md
+    - Microsoft AI Solution Accelerators: 02-catalog/microsoft-ai-accelerators.md
+    - Microsoft IQ Accelerator: 02-catalog/microsoft-iq.md
+    - Content Generation Accelerator: 02-catalog/content-generation.md
+    - Container Migration Accelerator: 02-catalog/container-migration.md
+    - Content Processing Accelerator: 02-catalog/content-processing.md
+    - Modernize Your Code Accelerator: 02-catalog/modernize-code.md
+    - Document Knowledge Mining: 02-catalog/document-knowledge-mining.md
+    - Conversation Knowledge Mining: 02-catalog/conversation-mining.md
+    - Deploy AI in Production: 02-catalog/deploy-ai-production.md
+    - Chat with Your Data: 02-catalog/chat-with-data.md
+  - 03. Enterprise Design:
+    - Architecture Patterns: 03-enterprise-design/architecture-patterns.md
+    - Governance and Security: 03-enterprise-design/governance-security.md
+  - 04. Security:
+    - Zero Trust Architecture: 04-security/index.md
