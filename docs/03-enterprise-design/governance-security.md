@@ -3,7 +3,7 @@
 This page summarizes the core governance and security concepts for enterprise RAG, and provides a reference catalog of the Microsoft and GitHub services, products, and components you use to implement them.
 
 <p align="center">
-<img src="../assets/img/governance-security-overview.svg" alt="Governance and security layered view across Microsoft Azure and GitHub" style="border-radius: 10px; max-width: 100%;"/>
+<img src="../../assets/img/governance-security-overview.svg" alt="Governance and security layered view across Microsoft Azure and GitHub" style="border-radius: 10px; max-width: 100%;"/>
 </p>
 
 ## Core concepts
