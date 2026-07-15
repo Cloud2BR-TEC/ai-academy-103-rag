@@ -49,11 +49,11 @@ This documentation focuses on how to move from RAG proof-of-concept to productio
 
 ## Recommended reading order
 
-1. Enterprise RAG Overview
-2. Zero Trust Architecture
-3. Governance and Security
-4. Architecture Patterns
-5. Implementation Approaches
+1. [Enterprise RAG Overview](0_Enterprise_RAG_Overview.md)
+2. [Zero Trust Architecture](4_Zero_Trust_Architecture.md)
+3. [Governance and Security](2_Governance_and_Security.md)
+4. [Architecture Patterns](1_Architecture_Patterns.md)
+5. [Implementation Approaches](3_Implementation_Approaches.md)
 
 !!! tip
-		If you are preparing a new deployment, begin with the Enterprise RAG overview and align your landing zone decisions before selecting implementation patterns.
+    If you are preparing a new deployment, begin with the Enterprise RAG overview and align your landing zone decisions before selecting implementation patterns.
