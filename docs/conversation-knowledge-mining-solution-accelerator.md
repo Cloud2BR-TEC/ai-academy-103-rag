@@ -1,4 +1,4 @@
-# Conversation Knowledge Mining Solution Accelerator
+﻿# Conversation Knowledge Mining Solution Accelerator
 
 ## Source
 

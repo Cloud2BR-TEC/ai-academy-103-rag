@@ -1,4 +1,4 @@
-# Chat with Your Data Solution Accelerator
+﻿# Chat with Your Data Solution Accelerator
 
 ## Source
 

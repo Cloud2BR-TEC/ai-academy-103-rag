@@ -1,4 +1,4 @@
-# Microsoft IQ Solution Accelerator
+﻿# Microsoft IQ Solution Accelerator
 
 ## Source
 

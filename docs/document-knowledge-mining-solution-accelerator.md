@@ -1,4 +1,4 @@
-# Document Knowledge Mining Solution Accelerator
+﻿# Document Knowledge Mining Solution Accelerator
 
 ## Source
 

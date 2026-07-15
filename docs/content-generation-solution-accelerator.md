@@ -1,4 +1,4 @@
-# Content Generation Solution Accelerator
+﻿# Content Generation Solution Accelerator
 
 ## Source
 

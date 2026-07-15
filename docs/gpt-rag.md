@@ -1,4 +1,4 @@
-# Azure GPT-RAG
+﻿# Azure GPT-RAG
 
 ## Source
 

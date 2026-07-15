@@ -1,4 +1,4 @@
-# Microsoft AI Solution Accelerators Catalog
+﻿# Microsoft AI Solution Accelerators Catalog
 
 ## Source
 
