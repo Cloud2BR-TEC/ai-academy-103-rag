@@ -11,7 +11,6 @@ theme:
   logo: assets/img/org-logo.png
   favicon: assets/img/org-logo.png
   features:
-    - navigation.sections
     - navigation.top
     - search.highlight
     - content.code.copy
