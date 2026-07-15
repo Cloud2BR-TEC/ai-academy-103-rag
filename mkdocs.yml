@@ -1,0 +1,60 @@
+site_name: "RAG Enterprise Scale"
+site_description: "Architecture and implementation patterns for enterprise-scale RAG solutions."
+site_url: https://cloud2br-tec.github.io/ai-academy-103-rag/
+docs_dir: docs
+
+copyright: Copyright &copy; 2026 <a href="https://github.com/Cloud2BR-TEC" target="_blank" rel="noopener">Cloud2BR TEC</a>
+
+theme:
+  name: material
+  language: en
+  logo: assets/img/org-logo.png
+  favicon: assets/img/org-logo.png
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    scheme: default
+    primary: blue
+    accent: blue
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
+  - assets/js/mermaid-init.js
+  - assets/js/org-link.js
+
+extra_css:
+  - assets/css/custom.css
+
+extra:
+  generator: false
+
+nav:
+  - Home: index.md
+  - 01. Fundamentals:
+    - 01.1 Enterprise RAG Overview: 0_Enterprise_RAG_Overview.md
+    - 01.2 Implementation Approaches: 3_Implementation_Approaches.md
+  - 02. Enterprise Design:
+    - 02.1 Architecture Patterns: 1_Architecture_Patterns.md
+    - 02.2 Governance and Security: 2_Governance_and_Security.md
+  - 03. Security:
+    - 03.1 Zero Trust Architecture: 4_Zero_Trust_Architecture.md
