@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="370" viewBox="0 0 900 370">
+  <!-- Background -->
+  <rect width="900" height="370" fill="#f7fafd" rx="14"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="900" height="46" fill="#003366" rx="14"/>
+  <rect x="0" y="32" width="900" height="14" fill="#003366"/>
+  <text x="450" y="26" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">Zero Trust — Six Pillars</text>
+
+  <!-- Row 1 -->
+
+  <!-- Pillar 1: Identities -->
+  <rect x="24" y="60" width="268" height="138" rx="10" fill="#004a99"/>
+  <text x="158" y="90" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">Identities</text>
+  <rect x="54" y="102" width="208" height="1" fill="rgba(255,255,255,0.22)"/>
+  <text x="158" y="123" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">MFA · Conditional Access</text>
+  <text x="158" y="141" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Privileged Identity Mgmt (PIM)</text>
+  <text x="158" y="159" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Managed Identity</text>
+  <text x="158" y="177" font-family="Arial, sans-serif" font-size="11" fill="#7ba9d6" text-anchor="middle">Microsoft Entra ID</text>
+
+  <!-- Pillar 2: Devices -->
+  <rect x="316" y="60" width="268" height="138" rx="10" fill="#003366"/>
+  <text x="450" y="90" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">Devices</text>
+  <rect x="346" y="102" width="208" height="1" fill="rgba(255,255,255,0.22)"/>
+  <text x="450" y="123" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Device compliance policies</text>
+  <text x="450" y="141" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Defender for Endpoint</text>
+  <text x="450" y="159" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Device health checks</text>
+  <text x="450" y="177" font-family="Arial, sans-serif" font-size="11" fill="#7ba9d6" text-anchor="middle">Microsoft Intune</text>
+
+  <!-- Pillar 3: Applications -->
+  <rect x="608" y="60" width="268" height="138" rx="10" fill="#004a99"/>
+  <text x="742" y="90" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">Applications</text>
+  <rect x="638" y="102" width="208" height="1" fill="rgba(255,255,255,0.22)"/>
+  <text x="742" y="123" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">OAuth 2.0 / OIDC scopes</text>
+  <text x="742" y="141" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">App registrations + permissions</text>
+  <text x="742" y="159" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Admin consent controls</text>
+  <text x="742" y="177" font-family="Arial, sans-serif" font-size="11" fill="#7ba9d6" text-anchor="middle">Entra App Gallery · MCAS</text>
+
+  <!-- Row 2 -->
+
+  <!-- Pillar 4: Data -->
+  <rect x="24" y="214" width="268" height="138" rx="10" fill="#003366"/>
+  <text x="158" y="244" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">Data</text>
+  <rect x="54" y="256" width="208" height="1" fill="rgba(255,255,255,0.22)"/>
+  <text x="158" y="277" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Sensitivity labels · DLP policies</text>
+  <text x="158" y="295" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Encryption at rest + in transit</text>
+  <text x="158" y="313" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Data classification at scale</text>
+  <text x="158" y="331" font-family="Arial, sans-serif" font-size="11" fill="#7ba9d6" text-anchor="middle">Microsoft Purview</text>
+
+  <!-- Pillar 5: Infrastructure -->
+  <rect x="316" y="214" width="268" height="138" rx="10" fill="#004a99"/>
+  <text x="450" y="244" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">Infrastructure</text>
+  <rect x="346" y="256" width="208" height="1" fill="rgba(255,255,255,0.22)"/>
+  <text x="450" y="277" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Posture management</text>
+  <text x="450" y="295" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">JIT VM access</text>
+  <text x="450" y="313" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">IaC security scanning</text>
+  <text x="450" y="331" font-family="Arial, sans-serif" font-size="11" fill="#7ba9d6" text-anchor="middle">Defender for Cloud</text>
+
+  <!-- Pillar 6: Networks -->
+  <rect x="608" y="214" width="268" height="138" rx="10" fill="#003366"/>
+  <text x="742" y="244" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">Networks</text>
+  <rect x="638" y="256" width="208" height="1" fill="rgba(255,255,255,0.22)"/>
+  <text x="742" y="277" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">NSGs · Azure Firewall</text>
+  <text x="742" y="295" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Private Endpoints</text>
+  <text x="742" y="313" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">VNet micro-segmentation</text>
+  <text x="742" y="331" font-family="Arial, sans-serif" font-size="11" fill="#7ba9d6" text-anchor="middle">Azure Virtual Network</text>
+</svg>

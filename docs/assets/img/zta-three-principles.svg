@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+  <!-- Background -->
+  <rect width="900" height="260" fill="#f7fafd" rx="14"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="900" height="46" fill="#003366" rx="14"/>
+  <rect x="0" y="32" width="900" height="14" fill="#003366"/>
+  <text x="450" y="26" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">Zero Trust — Three Guiding Principles</text>
+
+  <!-- Card 1: Verify Explicitly -->
+  <rect x="24" y="60" width="268" height="178" rx="10" fill="#004a99"/>
+  <text x="158" y="95" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Verify Explicitly</text>
+  <rect x="54" y="108" width="208" height="1" fill="rgba(255,255,255,0.22)"/>
+  <text x="158" y="129" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Authenticate every request using</text>
+  <text x="158" y="148" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">all available signals — identity,</text>
+  <text x="158" y="167" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">device health, location, and risk.</text>
+  <text x="158" y="186" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Never rely on network location</text>
+  <text x="158" y="205" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">alone as a trust signal.</text>
+
+  <!-- Card 2: Least Privilege -->
+  <rect x="316" y="60" width="268" height="178" rx="10" fill="#003366"/>
+  <text x="450" y="95" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Least Privilege</text>
+  <rect x="346" y="108" width="208" height="1" fill="rgba(255,255,255,0.22)"/>
+  <text x="450" y="129" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Limit access with JIT and JEA.</text>
+  <text x="450" y="148" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Users and workloads receive only</text>
+  <text x="450" y="167" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">what they need for the current</text>
+  <text x="450" y="186" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">task. Permissions expire when</text>
+  <text x="450" y="205" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">the task ends.</text>
+
+  <!-- Card 3: Assume Breach -->
+  <rect x="608" y="60" width="268" height="178" rx="10" fill="#004a99"/>
+  <text x="742" y="95" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Assume Breach</text>
+  <rect x="638" y="108" width="208" height="1" fill="rgba(255,255,255,0.22)"/>
+  <text x="742" y="129" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Design as if already breached.</text>
+  <text x="742" y="148" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">Micro-segment networks, encrypt</text>
+  <text x="742" y="167" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">end-to-end, and use analytics</text>
+  <text x="742" y="186" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">to detect, contain, and recover</text>
+  <text x="742" y="205" font-family="Arial, sans-serif" font-size="12" fill="#b8d0ec" text-anchor="middle">from threats quickly.</text>
+</svg>
