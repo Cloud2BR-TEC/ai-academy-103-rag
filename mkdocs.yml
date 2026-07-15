@@ -53,6 +53,20 @@ nav:
   - 01. Fundamentals:
     - 01.1 Enterprise RAG Overview: 0_Enterprise_RAG_Overview.md
     - 01.2 Implementation Approaches: 3_Implementation_Approaches.md
+    - 01.3 Implementation Catalog:
+      - Azure GPT-RAG: implementation-catalog/gpt-rag.md
+      - Customer Chatbot Accelerator: implementation-catalog/customer-chatbot-solution-accelerator.md
+      - Multi-Agent Automation Engine: implementation-catalog/multi-agent-custom-automation-engine.md
+      - Microsoft AI Solution Accelerators: implementation-catalog/microsoft-ai-solution-accelerators.md
+      - Microsoft IQ Accelerator: implementation-catalog/microsoft-iq-solution-accelerator.md
+      - Content Generation Accelerator: implementation-catalog/content-generation-solution-accelerator.md
+      - Container Migration Accelerator: implementation-catalog/container-migration-solution-accelerator.md
+      - Content Processing Accelerator: implementation-catalog/content-processing-solution-accelerator.md
+      - Modernize Your Code Accelerator: implementation-catalog/modernize-your-code-solution-accelerator.md
+      - Document Knowledge Mining Accelerator: implementation-catalog/document-knowledge-mining-solution-accelerator.md
+      - Conversation Knowledge Mining Accelerator: implementation-catalog/conversation-knowledge-mining-solution-accelerator.md
+      - Deploy AI Application in Production: implementation-catalog/deploy-ai-application-in-production.md
+      - Chat with Your Data Accelerator: implementation-catalog/chat-with-your-data-solution-accelerator.md
   - 02. Enterprise Design:
     - 02.1 Architecture Patterns: 1_Architecture_Patterns.md
     - 02.2 Governance and Security: 2_Governance_and_Security.md
