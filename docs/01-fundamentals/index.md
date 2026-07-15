@@ -5,39 +5,39 @@
 <details markdown="block">
 <summary><b>References</b> (Click to expand)</summary>
 
-- [Baseline enterprise chat architecture — Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/architecture/baseline-openai-e2e-chat)
-- [What is Cloud Adoption Framework (CAF) — Microsoft Learn](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/overview)
+- [Baseline enterprise chat architecture - Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/architecture/baseline-openai-e2e-chat)
+- [What is Cloud Adoption Framework (CAF) - Microsoft Learn](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/overview)
 - [CAF AI adoption scenario](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/strategy)
-- [Azure Well-Architected Framework (WAF) — Microsoft Learn](https://learn.microsoft.com/en-us/azure/well-architected/)
+- [Azure Well-Architected Framework (WAF) - Microsoft Learn](https://learn.microsoft.com/en-us/azure/well-architected/)
 - [WAF AI workloads design guidance](https://learn.microsoft.com/en-us/azure/well-architected/ai/get-started)
-- [Zero Trust Architecture — Microsoft Security](https://www.microsoft.com/en-us/security/business/zero-trust)
-- [GPT-RAG — Azure GitHub](https://github.com/Azure/GPT-RAG)
+- [Zero Trust Architecture - Microsoft Security](https://www.microsoft.com/en-us/security/business/zero-trust)
+- [GPT-RAG - Azure GitHub](https://github.com/Azure/GPT-RAG)
 - [Azure AI Foundry Baseline architecture](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/architecture/baseline-microsoft-foundry-chat)
 
 </details>
 
 ## What Is Enterprise RAG?
 
-> Enterprise RAG is a `production-grade Retrieval-Augmented Generation deployment` that goes beyond a demo or prototype. It integrates an LLM with your organization's private knowledge — documents, databases, SharePoint, APIs — and `wraps that capability in the security, governance, scalability, and operational controls required by a real enterprise workload`.
+> Enterprise RAG is a `production-grade Retrieval-Augmented Generation deployment` that goes beyond a demo or prototype. It integrates an LLM with your organization's private knowledge - documents, databases, SharePoint, APIs - and `wraps that capability in the security, governance, scalability, and operational controls required by a real enterprise workload`.
 
 Basic RAG (a PoC or demo) connects a language model to a search index and produces answers. It works. But it is not production-ready. Enterprise RAG adds everything that makes a workload safe to run at scale: identity controls, private networking, cost guardrails, observability, disaster recovery, and a governance model that satisfies compliance requirements.
 
 > From the Microsoft Azure Architecture Center: _"Enterprise chat applications let employees interact with AI agents through natural language conversations. These applications use language models, like OpenAI GPT models, and consist of a chat UI, domain-specific data repositories, a language model, and a persisted orchestration definition that oversees the interactions between data sources, models, and the user."_
 
 <div align="center">
-  <img src="../assets/img/rag-enterprise-overview.svg" alt="Enterprise RAG — How It Works" style="border-radius: 10px; max-width: 100%;"/>
+  <img src="../assets/img/rag-enterprise-overview.svg" alt="Enterprise RAG - How It Works" style="border-radius: 10px; max-width: 100%;"/>
 </div>
 
 | Basic RAG (PoC/Demo) | Enterprise RAG (Production) |
 |---------------------|----------------------------|
-| Public API endpoints | Private Endpoints only — no public exposure |
+| Public API endpoints | Private Endpoints only - no public exposure |
 | API keys in code or env vars | Azure Key Vault + Managed Identity |
 | Single region, no redundancy | Zone-redundant, multi-region failover strategy |
 | No access controls | Microsoft Entra ID + Conditional Access + MFA |
-| No audit trail | Azure Monitor + Sentinel — full audit log |
+| No audit trail | Azure Monitor + Sentinel - full audit log |
 | No cost governance | Token budgets, Provisioned Throughput Units (PTU), alerts |
 | Manual deployment | IaC (Bicep/Terraform) + CI/CD pipelines |
-| No data classification | Microsoft Purview — sensitivity labels + DLP |
+| No data classification | Microsoft Purview - sensitivity labels + DLP |
 
 ## Why Three Frameworks?
 
@@ -58,7 +58,7 @@ No single framework covers everything. Enterprise RAG sits at the intersection o
 
 ## Cloud Adoption Framework (CAF)
 
-> The Microsoft Cloud Adoption Framework is a `structured roadmap that helps organizations successfully adopt Azure and integrate it into their existing IT environments`. It provides proven practices to govern, secure, and manage all workloads — including AI and RAG systems.
+> The Microsoft Cloud Adoption Framework is a `structured roadmap that helps organizations successfully adopt Azure and integrate it into their existing IT environments`. It provides proven practices to govern, secure, and manage all workloads - including AI and RAG systems.
 
 CAF organizes guidance into **seven methodologies**: four sequential (foundational) phases that you go through once per workload, plus three operational phases that run continuously once workloads are live.
 
@@ -81,7 +81,7 @@ CAF organizes guidance into **seven methodologies**: four sequential (foundation
 
 ### AI Landing Zone (CAF Ready Phase)
 
-A core output of the CAF Ready phase for Enterprise RAG is an **AI Landing Zone** — a pre-configured, governed Azure environment that all RAG workloads deploy into. It includes:
+A core output of the CAF Ready phase for Enterprise RAG is an **AI Landing Zone** - a pre-configured, governed Azure environment that all RAG workloads deploy into. It includes:
 
 - **Networking**: VNet with private subnets, Private DNS zones, Azure Firewall for egress control
 - **Identity**: Entra ID tenant, Managed Identity patterns, PIM for privileged roles
@@ -114,7 +114,7 @@ The WAF is not just a reading exercise. Microsoft provides an **[Azure Architect
 
 ## Zero Trust Architecture
 
-ZTA is covered in depth in the [03.1 Zero Trust Architecture](../04-security/index.md) page. In the context of Enterprise RAG, ZTA is the security layer that enforces the "never trust, always verify" principle at every hop of the pipeline — from the user's browser to the final LLM response.
+ZTA is covered in depth in the [03.1 Zero Trust Architecture](../04-security/index.md) page. In the context of Enterprise RAG, ZTA is the security layer that enforces the "never trust, always verify" principle at every hop of the pipeline - from the user's browser to the final LLM response.
 
 !!! warning
     Every production Enterprise RAG deployment on Azure **must** implement Zero Trust controls. Without them, a single compromised credential or misconfigured network rule can expose your entire knowledge base and conversation history.

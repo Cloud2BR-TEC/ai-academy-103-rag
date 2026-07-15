@@ -13,7 +13,7 @@
 | **Stack** | Microsoft Foundry · Azure Content Understanding · Azure OpenAI · Foundry IQ |
 
 ## What it solves
-Derives insights from large volumes of conversational data — call logs, chat transcripts, support tickets — providing key phrase extraction, topic modeling, sentiment analysis, and interactive chat over the resulting insights.
+Derives insights from large volumes of conversational data - call logs, chat transcripts, support tickets - providing key phrase extraction, topic modeling, sentiment analysis, and interactive chat over the resulting insights.
 
 ## Tech stack
 | Component | Role |

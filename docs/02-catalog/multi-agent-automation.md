@@ -13,7 +13,7 @@
 | **Stack** | Microsoft Agent Framework · Azure Foundry · Cosmos DB |
 
 ## What it solves
-An AI-driven reference system that coordinates a group of specialized agents — Orchestrator, Research, Execution, and Validator — to complete complex multi-step tasks based on user input.
+An AI-driven reference system that coordinates a group of specialized agents - Orchestrator, Research, Execution, and Validator - to complete complex multi-step tasks based on user input.
 
 ## Best fit for
 - Business process automation requiring multiple specialization steps
@@ -29,4 +29,4 @@ An AI-driven reference system that coordinates a group of specialized agents —
 | Azure OpenAI | Agent reasoning and generation |
 
 ## Adoption notes
-Use when one agent is not sufficient. The engine is extensible — specialist agents can be swapped for your domain.
+Use when one agent is not sufficient. The engine is extensible - specialist agents can be swapped for your domain.

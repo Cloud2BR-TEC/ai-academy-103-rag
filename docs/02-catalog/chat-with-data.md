@@ -13,7 +13,7 @@
 | **Stack** | Azure AI Search · Azure OpenAI · App Service · Azure Functions |
 
 ## What it solves
-A comprehensive RAG solution accelerator with common enterprise requirements and best practices for chat over private organizational data — from document ingestion to grounded chat with source attribution.
+A comprehensive RAG solution accelerator with common enterprise requirements and best practices for chat over private organizational data - from document ingestion to grounded chat with source attribution.
 
 ## Tech stack
 | Component | Role |

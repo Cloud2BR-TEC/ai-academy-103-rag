@@ -17,7 +17,7 @@
 
 ## What it solves
 
-GPT-RAG is Microsoft's reference architecture for running Retrieval-Augmented Generation at enterprise scale in a secure, private Azure environment. It covers the full lifecycle: document ingestion, vector embedding, hybrid retrieval, and grounded response generation — all inside a Zero Trust network boundary.
+GPT-RAG is Microsoft's reference architecture for running Retrieval-Augmented Generation at enterprise scale in a secure, private Azure environment. It covers the full lifecycle: document ingestion, vector embedding, hybrid retrieval, and grounded response generation - all inside a Zero Trust network boundary.
 
 ## Best fit for
 

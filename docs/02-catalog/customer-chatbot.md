@@ -13,7 +13,7 @@
 | **Stack** | Microsoft Foundry · Azure OpenAI · AI Search · App Service |
 
 ## What it solves
-Empowers organizations to build intelligent customer service experiences using Microsoft Foundry's agent framework, handling the full lifecycle from user intent to grounded contextual response — integrated with enterprise CRM and knowledge bases.
+Empowers organizations to build intelligent customer service experiences using Microsoft Foundry's agent framework, handling the full lifecycle from user intent to grounded contextual response - integrated with enterprise CRM and knowledge bases.
 
 ## Best fit for
 - Customer support modernization and self-service channels
