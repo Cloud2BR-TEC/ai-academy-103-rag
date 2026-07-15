@@ -5,11 +5,11 @@
 
   /* Narrower left sidebar */
   .md-sidebar--primary {
-    width: 9.8rem;
+    width: 8.8rem;
   }
 
   .md-sidebar--primary .md-sidebar__scrollwrap {
-    width: 9.8rem;
+    width: 8.8rem;
   }
 }
 
@@ -84,25 +84,25 @@ a.home-card:hover {
 }
 
 .md-nav--primary .md-nav__title {
-  font-size: 0.68rem;
+  font-size: 0.64rem;
   font-weight: 700;
   letter-spacing: 0.02em;
   color: #5e6b7a;
 }
 
 .md-nav--primary .md-nav__item--section > .md-nav__link {
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   font-weight: 700;
   color: #243447;
   cursor: default;
 }
 
 .md-nav--primary .md-nav__item .md-nav__link {
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   border-left: 3px solid transparent;
   border-radius: 6px;
   margin: 0.04rem 0;
-  padding: 0.18rem 0.45rem;
+  padding: 0.14rem 0.4rem;
   transition: background-color 120ms ease, color 120ms ease, border-color 120ms ease;
 }
 
