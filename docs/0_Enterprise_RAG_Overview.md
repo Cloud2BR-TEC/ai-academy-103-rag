@@ -114,7 +114,7 @@ The WAF is not just a reading exercise. Microsoft provides an **[Azure Architect
 
 ## Zero Trust Architecture
 
-ZTA is covered in depth in the [03.1 Zero Trust Architecture](../4_Zero_Trust_Architecture.md) page. In the context of Enterprise RAG, ZTA is the security layer that enforces the "never trust, always verify" principle at every hop of the pipeline — from the user's browser to the final LLM response.
+ZTA is covered in depth in the [03.1 Zero Trust Architecture](4_Zero_Trust_Architecture.md) page. In the context of Enterprise RAG, ZTA is the security layer that enforces the "never trust, always verify" principle at every hop of the pipeline — from the user's browser to the final LLM response.
 
 !!! warning
     Every production Enterprise RAG deployment on Azure **must** implement Zero Trust controls. Without them, a single compromised credential or misconfigured network rule can expose your entire knowledge base and conversation history.
