@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+  <rect width="900" height="220" fill="#f7fafd" rx="14"/>
+  <rect x="0" y="0" width="900" height="46" fill="#003366" rx="14"/>
+  <rect x="0" y="32" width="900" height="14" fill="#003366"/>
+  <text x="450" y="26" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle" dominant-baseline="middle">Microsoft IQ Solution Accelerator — Unified Intelligence Layer</text>
+  <!-- Work IQ -->
+  <rect x="30" y="64" width="242" height="118" rx="9" fill="#004a99"/>
+  <text x="151" y="100" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">Work IQ</text>
+  <rect x="60" y="112" width="182" height="1" fill="rgba(255,255,255,0.22)"/>
+  <text x="151" y="130" font-family="Arial,sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Microsoft 365 + workplace data</text>
+  <text x="151" y="148" font-family="Arial,sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Productivity intelligence</text>
+  <!-- Foundry IQ -->
+  <rect x="286" y="64" width="242" height="118" rx="9" fill="#003366"/>
+  <text x="407" y="100" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">Foundry IQ</text>
+  <rect x="316" y="112" width="182" height="1" fill="rgba(255,255,255,0.22)"/>
+  <text x="407" y="130" font-family="Arial,sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Azure AI Foundry agents</text>
+  <text x="407" y="148" font-family="Arial,sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Reasoning + knowledge layer</text>
+  <!-- Fabric IQ -->
+  <rect x="542" y="64" width="242" height="118" rx="9" fill="#003878"/>
+  <text x="663" y="100" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">Fabric IQ</text>
+  <rect x="572" y="112" width="182" height="1" fill="rgba(255,255,255,0.22)"/>
+  <text x="663" y="130" font-family="Arial,sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Microsoft Fabric analytics</text>
+  <text x="663" y="148" font-family="Arial,sans-serif" font-size="11" fill="#b8d0ec" text-anchor="middle">Data + reporting layer</text>
+  <!-- Unified label -->
+  <rect x="200" y="190" width="500" height="22" rx="7" fill="rgba(0,74,153,0.10)" stroke="#c8d8ea"/>
+  <text x="450" y="204" font-family="Arial,sans-serif" font-size="11" fill="#003366" text-anchor="middle" font-weight="bold">Single unified intelligence layer across all enterprise data and decisions</text>
+</svg>

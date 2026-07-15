@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#004a99"/>
+    </marker>
+  </defs>
+  <rect width="900" height="220" fill="#f7fafd" rx="14"/>
+  <rect x="0" y="0" width="900" height="46" fill="#003366" rx="14"/>
+  <rect x="0" y="32" width="900" height="14" fill="#003366"/>
+  <text x="450" y="26" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle" dominant-baseline="middle">Content Generation Solution Accelerator</text>
+  <!-- Box 1 -->
+  <rect x="30" y="64" width="168" height="118" rx="9" fill="#526072"/>
+  <text x="114" y="104" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">Creative Brief</text>
+  <text x="114" y="124" font-family="Arial,sans-serif" font-size="11" fill="#c8d8ea" text-anchor="middle">Topic · Audience</text>
+  <text x="114" y="142" font-family="Arial,sans-serif" font-size="11" fill="#c8d8ea" text-anchor="middle">Brand guidelines</text>
+  <line x1="198" y1="123" x2="226" y2="123" stroke="#004a99" stroke-width="2" marker-end="url(#arr)"/>
+  <!-- Box 2 -->
+  <rect x="226" y="64" width="168" height="118" rx="9" fill="#003366"/>
+  <text x="310" y="104" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">Planner Agent</text>
+  <text x="310" y="124" font-family="Arial,sans-serif" font-size="11" fill="#c8d8ea" text-anchor="middle">Outline · Structure</text>
+  <text x="310" y="142" font-family="Arial,sans-serif" font-size="11" fill="#c8d8ea" text-anchor="middle">Task decomposition</text>
+  <line x1="394" y1="123" x2="422" y2="123" stroke="#004a99" stroke-width="2" marker-end="url(#arr)"/>
+  <!-- Box 3 -->
+  <rect x="422" y="64" width="168" height="118" rx="9" fill="#004a99"/>
+  <text x="506" y="100" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">Writer + Reviewer</text>
+  <text x="506" y="118" font-family="Arial,sans-serif" font-size="11" fill="#c8d8ea" text-anchor="middle">Azure OpenAI draft</text>
+  <text x="506" y="136" font-family="Arial,sans-serif" font-size="11" fill="#c8d8ea" text-anchor="middle">Quality review agent</text>
+  <text x="506" y="154" font-family="Arial,sans-serif" font-size="11" fill="#c8d8ea" text-anchor="middle">Brand compliance</text>
+  <line x1="590" y1="123" x2="618" y2="123" stroke="#004a99" stroke-width="2" marker-end="url(#arr)"/>
+  <!-- Box 4 -->
+  <rect x="618" y="64" width="252" height="118" rx="9" fill="#003878"/>
+  <text x="744" y="104" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">Published Content</text>
+  <text x="744" y="124" font-family="Arial,sans-serif" font-size="11" fill="#c8d8ea" text-anchor="middle">Blog · Email · Social</text>
+  <text x="744" y="142" font-family="Arial,sans-serif" font-size="11" fill="#c8d8ea" text-anchor="middle">On-brand · Approved</text>
+</svg>
